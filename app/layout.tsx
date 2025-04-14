@@ -24,8 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-    
+    <html lang="en" className="no-js">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased v-dark dsn-ajax`}>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&amp;display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" />
