@@ -454,7 +454,7 @@ const dsnParam = {
         ease: "Power4.easeInOut",
         duration: 1.5
       }, '-=1.5').fromTo("#main_root", 1, {
-        y: 400
+        y: '100vh'
       }, {
         y: 0,
         clearProps: true,
