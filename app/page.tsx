@@ -3,13 +3,17 @@ import { Fragment } from "react";
 import { Loader } from "@/components/loader";
 import { Container } from "@/components/container";
 import { Header } from "@/components/header";
+import ScriptLoader from "@/components/script-loader";
+
 export default function Home() {
-  return (
+
+    return (
     <Fragment>
-      <Loader />
-      <Container>
-        <Header />
-      </Container>
+        <ScriptLoader />
+        <Loader />
+        <Container>
+            <Header />
+        </Container>
     </Fragment>
   );
 }
