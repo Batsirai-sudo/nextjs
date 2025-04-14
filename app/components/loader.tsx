@@ -23,11 +23,10 @@ export const Loader = () => {
             }
         };
 
+        // TODO remove memory lick of this event maybe use closer based or context
         video.addEventListener( 'timeupdate', handleTimeUpdate );
 
         return () => {
-            console.log( 'removeEventListener------' );
-
             video.removeEventListener('timeupdate', handleTimeUpdate);
         };
     }, [] );
@@ -40,7 +39,6 @@ export const Loader = () => {
             <div className="loading-count">
                 <p>0</p>
             </div>
-            {/*<span className="loading-text text-uppercase mt-30 dsn-container">Loading ...</span>*/}
         </div>
     </Fragment>
     );

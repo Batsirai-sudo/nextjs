@@ -4,6 +4,8 @@ import { Loader } from "@/components/loader";
 import { Container } from "@/components/container";
 import { Header } from "@/components/header";
 import ScriptLoader from "@/components/script-loader";
+import { Scrollbar } from "@/components/scrollbar";
+import { Slider } from "@/components/slider";
 
 export default function Home() {
 
@@ -13,6 +15,9 @@ export default function Home() {
         <Loader />
         <Container>
             <Header />
+            <Scrollbar>
+                <Slider />
+            </Scrollbar>
         </Container>
     </Fragment>
   );
