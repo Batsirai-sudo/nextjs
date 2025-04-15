@@ -27,11 +27,12 @@ export const Loader = () => {
         video.addEventListener( 'timeupdate', handleTimeUpdate );
 
         return () => {
+            console.log('unmounting');
             video.removeEventListener('timeupdate', handleTimeUpdate);
         };
     }, [] );
     return(
-        <Fragment>
+        <div>
         <div id="dsn_preloader" className="preloader">
             <video ref={ videoRef } id="video-loader" className="video-loader" autoPlay loop muted playsInline>
                 <source src="assets/img/loading/glory-today.mp4" type="video/mp4"/>
@@ -40,6 +41,6 @@ export const Loader = () => {
                 <p>0</p>
             </div>
         </div>
-    </Fragment>
+    </div>
     );
 }
