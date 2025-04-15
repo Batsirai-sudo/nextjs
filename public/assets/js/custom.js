@@ -430,7 +430,6 @@ const dsnParam = {
       clearInterval(timer);
       const tl = gsap.timeline();
 
-      console.log( tl);
       tl.to(present, 3, {
         value: 100,
 
@@ -455,13 +454,12 @@ const dsnParam = {
         ease: "Power4.easeInOut",
         duration: 1.5
       }, '-=1.5').fromTo("#main_root", 1, {
-        y: 400
+        y: '100vh'
       }, {
         y: 0,
         clearProps: true,
         ease: Expo.easeInOut
       }, "-=1.2").call(function () {
-        console.log('---------')
         preloader.remove();
         ScrollTrigger.update();
         $body.css('overflow', '');
@@ -1544,7 +1542,6 @@ function sidebarOptions() {
   document.body.classList.toggle('dsn-show-sidebar');
 }
 
-console.log('Hello, World!');
 // document.dispatchEvent(new Event("DOMContentLoaded"));
 //
 // window.addEventListener('DOMContentLoaded', function () {
