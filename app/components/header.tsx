@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export const Header = () => (
     <header id="site_menu_header" className="site-header d-none">
         <div className="main-logo">
-            <a href="index.html" data-dsn-text="mexdot" className="custom-logo-link main-brand effect-ajax" rel="home" aria-current="page">
-                <img src="assets/img/logo-2.png" className="custom-logo logo-light" alt="mexdot"/>
-                <img src="assets/img/logo-2.png" className="custom-logo logo-dark" alt="mexdot"/>
-            </a>
+            <Link href="/" data-dsn-text="mexdot" className="custom-logo-link main-brand effect-ajax" rel="home" aria-current="page">
+                <img src="/assets/img/logo-2.png" className="custom-logo logo-light" alt="mexdot"/>
+                <img src="/assets/img/logo-2.png" className="custom-logo logo-dark" alt="mexdot"/>
+            </Link>
         </div>
         <nav className="main-navigation">
             <div className="menu-cover-title header-container dsn-container">MENU</div>
@@ -45,9 +47,9 @@ export const Header = () => (
                     </a>
                 </li>
                 <li>
-                    <a title="Home" href="#0">
+                    <Link title="Home" href="/contact">
                         Contact Us
-                    </a>
+                    </Link>
                 </li>
 				</ul>
 

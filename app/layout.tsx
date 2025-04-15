@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Loader } from "@/components/loader";
+import { Container } from "@/components/container";
+import { Header } from "@/components/header";
+import ScriptLoader from "@/components/script-loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,8 +38,15 @@ export default function RootLayout({
         <link rel="stylesheet" href="assets/css/style.css"/>
         <link rel="icon" href="assets/img/logo.png" sizes="32x32"/>
         <link rel="icon" href="assets/img/logo.png" sizes="192x192"/>
+        <ScriptLoader />
+        <Loader />
+        <Header />
+        <Container>
         {children}
+        </Container> 
         <Analytics />
+        <SpeedInsights />
+        
       </body>
     </html>
   );
