@@ -506,12 +506,10 @@ export default function Contact() {
                                       <h6 className="mb-10">Email Address</h6>
                                       <a className="text-upper" href="mailto:support@theglory.today">support@theglory.today</a>
                                   </div>
-
-                                  <div className="info-item">
+                                  {/* <div className="info-item">
                                       <h6 className="mb-10">Call Info</h6>
                                       <a className="text-upper" href="#">+31 6 86171071</a>
-                                  </div>
-
+                                  </div> */}
                                   {/*<div className="info-item">*/}
                                   {/*    <h6 className="mb-10">Email</h6>*/}
                                   {/*    <a className="text-upper" href="#">dsngrid.theme</a>*/}
