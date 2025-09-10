@@ -12,7 +12,7 @@ export default function Contact() {
                 </a>
             </div>
             <nav className="main-navigation ">
-                <div className="menu-cover-title header-container dsn-container">MENU</div>
+                <div className="menu-cover-title header-container dsn-container">MENU2</div>
                 <ul id="dsn-primary-list" className="primary-nav h2">
                     <li className="nav-item has-sub-menu">
                         <a title="Home" href="#0">
