@@ -168,61 +168,68 @@ export const Slider = () => {
     );
 }
 
-const SliderItem = (
-    {
-        description_classes,
-        dataOverlay,
-        src,
-        h2Text,
-        hashTags,
-        item_description,
-        view_link,
-        h2Href
-    }: {
-        description_classes: string;
-        dataOverlay: number;
-        src: string;
-        h2Href: string;
-        h2Text: string;
-        hashTags: string[];
-        item_description: string;
-        view_link: string;
-    }) => (
+const SliderItem = ({
+    description_classes,
+    dataOverlay,
+    src,
+    h2Text,
+    hashTags,
+    item_description,
+    view_link,
+    h2Href,
+    id
+}: {
+    description_classes: string;
+    dataOverlay: number;
+    src: string;
+    h2Href: string;
+    h2Text: string;
+    hashTags: string[];
+    item_description: string;
+    view_link: string;
+    id?: number;
+}) => (
     <div className="slide-item swiper-slide over-hidden">
-        <div className="image-bg cover-bg w-100 h-100 before-z-index" data-overlay={ dataOverlay }>
-            <img loading="lazy" src={ src } className="cover-bg-img dsn-swiper-parallax-transform" alt=""/>
+        <div className="image-bg cover-bg w-100 h-100 before-z-index" data-overlay={dataOverlay}>
+            <img loading="lazy" src={src} className="cover-bg-img dsn-swiper-parallax-transform" alt="" />
         </div>
         <div className="slide-content p-absolute">
             <h2 className="title-lg has-box-mod p-relative">
-                <a className="effect-ajax text-upper" data-dsn-split="chars" data-dsn-ajax="slider" href={ h2Href }>
-                    { h2Text }
+                <a className="effect-ajax text-upper" data-dsn-split="chars" data-dsn-ajax="slider" href={h2Href}>
+                    {h2Text}
                 </a>
             </h2>
-
-            <div className={ description_classes }>
+            <div className={description_classes}>
+            
+                {id === 1 && (
+                    <div className="slider-intro-text" style={{ margin: '1rem 0 0.5rem 0', fontSize: '1.25rem', color: '#fff', maxWidth: 600 }}>
+                        We are building a new kind of media movement — bold, honest, and filled with purpose. Welcome to the journey.
+                    </div>
+                )}
                 <div className="cat head-meta p-0">
-                    { hashTags.map(( item ) => (
-                        <span key={ item } className="background-section heading-color">{ item }</span>
+                    {hashTags.map((item) => (
+                        <span key={item} className="background-section heading-color">{item}</span>
                     ))}
                 </div>
-
                 <p className="item description">
                     <span className="text-upper">
-                        { item_description }
+                        {item_description}
                     </span>
                 </p>
-
                 <div className="dsn-btn dsn-btn-shape d-inline-flex d-flex no-padding text-upper">
-                    {/*effect-ajax*/}
-                    <a className="button" href={ view_link } target="_blank">
+                    <span className="icon background-section theme-color">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
+                        </svg>
+                    </span>
+                    <a className="button" href={view_link} target="_blank">
                         <span className="title-btn p-relative z-index-1" data-animate-text="View episode">
-                             <span>View episode</span>
+                            <span>View episode</span>
                         </span>
                     </a>
                     <span className="icon background-section theme-color">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
-                            </path>
+                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
                         </svg>
                     </span>
                 </div>

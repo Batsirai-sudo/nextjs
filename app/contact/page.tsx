@@ -12,7 +12,7 @@ export default function Contact() {
                 </a>
             </div>
             <nav className="main-navigation ">
-                <div className="menu-cover-title header-container dsn-container">MENU2</div>
+                <div className="menu-cover-title header-container dsn-container">MENU</div>
                 <ul id="dsn-primary-list" className="primary-nav h2">
                     <li className="nav-item has-sub-menu">
                         <a title="Home" href="#0">
@@ -277,16 +277,6 @@ export default function Contact() {
                     <div className="nav-social nav-content mt-30">
                         <div className="nav-social-inner p-relative">
                             <h5 className="sm-title-block mb-10">Follow us</h5>
-                            {/*<ul style="--dsn-li-name: dsn6;">*/}
-                            {/*    <li style="--dsn-li-index: 0;"><a href="#0" target="_blank"*/}
-                            {/*                                      rel="nofollow noopener noreferrer">Dribbble.</a></li>*/}
-                            {/*    <li style="--dsn-li-index: 1;"><a href="#0" target="_blank"*/}
-                            {/*                                      rel="nofollow noopener noreferrer">Behance.</a></li>*/}
-                            {/*    <li style="--dsn-li-index: 2;"><a href="#0" target="_blank"*/}
-                            {/*                                      rel="nofollow noopener noreferrer">Linkedin.</a></li>*/}
-                            {/*    <li style="--dsn-li-index: 3;"><a href="#0" target="_blank"*/}
-                            {/*                                      rel="nofollow noopener noreferrer">Twitter.</a></li>*/}
-                            {/*</ul>*/}
                         </div>
                     </div>
                 </div>
