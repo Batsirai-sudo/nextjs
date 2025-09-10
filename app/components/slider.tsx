@@ -132,6 +132,7 @@ export const Slider = () => {
                                               item_description={ item.item_description }
                                               view_link={ item.view_link }
                                               h2Href={ item.h2Href }
+                                              paragraph={item.paragraph}
                                           />
                                       )
                                   )}
@@ -178,7 +179,7 @@ const SliderItem = (
         hashTags,
         item_description,
         view_link,
-        h2Href
+        paragraph
     }: {
         description_classes: string;
         dataOverlay: number;
@@ -188,6 +189,7 @@ const SliderItem = (
         hashTags: string[];
         item_description: string;
         view_link: string;
+        paragraph?: string;
     }) => (
     <div className="slide-item swiper-slide over-hidden">
         <div className="image-bg cover-bg w-100 h-100 before-z-index" data-overlay={ dataOverlay }>
