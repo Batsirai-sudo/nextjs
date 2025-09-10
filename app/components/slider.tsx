@@ -179,6 +179,7 @@ const SliderItem = (
         hashTags,
         item_description,
         view_link,
+        h2Href,
         paragraph
     }: {
         description_classes: string;
@@ -203,6 +204,11 @@ const SliderItem = (
             </h2>
             <div className={description_classes}>
 
+                {paragraph && (
+                    <p className="slider-paragraph">
+                        {paragraph}
+                    </p>
+                )}
 
                 <div className="cat head-meta p-0">
                     { hashTags.map(( item ) => (
