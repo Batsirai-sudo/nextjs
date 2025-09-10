@@ -200,12 +200,8 @@ const SliderItem = (
                 </a>
             </h2>
             <div className={description_classes}>
-            
-                {id === 1 && (
-                    <div className="slider-intro-text" style={{ margin: '1rem 0 0.5rem 0', fontSize: '1.25rem', color: '#fff', maxWidth: 600 }}>
-                        We are building a new kind of media movement — bold, honest, and filled with purpose. Welcome to the journey.
-                    </div>
-                )}
+
+
                 <div className="cat head-meta p-0">
                     { hashTags.map(( item ) => (
                         <span key={ item } className="background-section heading-color">{ item }</span>
