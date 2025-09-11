@@ -47,7 +47,7 @@ export const Header = () => (
                     </a>
                 </li>
                 <li>
-                    <Link title="Home" href="/contact">
+                    <Link title="Home" href="/contact" className='contact-btn'>
                         Contact Us
                     </Link>
                 </li>
