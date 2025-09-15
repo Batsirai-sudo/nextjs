@@ -323,7 +323,7 @@ export default function Contact() {
                           <div className="box-content d-flex flex-column z-index-1">
                               <h1 className="title-lg text-upper">CONTACT US</h1>
                               <div className="contact-links d-flex flex-column w-50 mt-50">
-                                  <a href="mailto:booking@theglory.today" className="sm-title-block text-upper d-flex justify-content-between align-items-center">booking@theglory.today
+                                  <a href="Question@theglory.today" className="sm-title-block text-upper d-flex justify-content-between align-items-center">Question@theglory.today
                                       <span className="icon">
                                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                               <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
