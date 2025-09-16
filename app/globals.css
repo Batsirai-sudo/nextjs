@@ -49,3 +49,128 @@
 }
 
 
+.dsn-socials.box-social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dsn-socials.box-social li a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+    padding: 6px 10px !important;
+    color: #fff !important;
+    background-color: #222 !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    box-sizing: border-box;
+}
+
+
+.dsn-socials.box-social li a i,
+.dsn-socials.box-social li a svg {
+    font-size: 16px !important;
+    width: 20px;
+    height: 20px;
+    transition: color 0.3s ease, fill 0.3s ease !important;
+}
+
+
+.dsn-socials.box-social li a:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+.dsn-socials.box-social li a[href*="facebook"]:hover {
+    background-color: #1877F2 !important;
+}
+.dsn-socials.box-social li a[href*="facebook"]:hover i,
+.dsn-socials.box-social li a[href*="facebook"]:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+
+.dsn-socials.box-social li a[href*="instagram"]:hover {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF) !important;
+}
+.dsn-socials.box-social li a[href*="instagram"]:hover i,
+.dsn-socials.box-social li a[href*="instagram"]:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+
+.dsn-socials.box-social li a[href*="twitter"]:hover {
+    background-color: #1DA1F2 !important;
+}
+.dsn-socials.box-social li a[href*="twitter"]:hover i,
+.dsn-socials.box-social li a[href*="twitter"]:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+
+.dsn-socials.box-social li a[href*="youtube"]:hover {
+    background-color: #FF0000 !important;
+}
+.dsn-socials.box-social li a[href*="youtube"]:hover i,
+.dsn-socials.box-social li a[href*="youtube"]:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+
+.dsn-socials.box-social li a[href*="twitch"]:hover {
+    background-color: #9146FF !important;
+}
+.dsn-socials.box-social li a[href*="twitch"]:hover i,
+.dsn-socials.box-social li a[href*="twitch"]:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+
+.dsn-socials.box-social li a[href*="tiktok"]:hover {
+    background: linear-gradient(135deg, #25F4EE 0%, #000000 50%, #FE2C55 100%) !important;
+}
+.dsn-socials.box-social li a[href*="tiktok"]:hover svg {
+    fill: #fff !important;
+}
+
+
+.dsn-socials.box-social li:last-child a {
+    height: 36px !important;
+    padding: 0 12px !important;
+    background-color: #222 !important;
+    border-radius: 5px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+}
+
+
+.dsn-socials.box-social li:last-child a:hover {
+    background-color: #555 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+
+
+
+
