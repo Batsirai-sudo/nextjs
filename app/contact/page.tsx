@@ -387,7 +387,7 @@ export default function Contact() {
                                           <div className="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
                                               <img className="cover-bg-img" src="assets/img/bg.svg" alt=""/>
                                           </div>
-                                          <h2 className="title text-upper p-relative">Let's Work Together</h2>
+                                          <h2 className="title text-upper p-relative">Leave us a message – your voice matters!</h2>
                                       </div>
 
                                       <div className="info background-section has-border-radius p-relative over-hidden">
