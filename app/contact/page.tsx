@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 
 export default function Contact() {
-  return (
+  // @ts-ignore
+    return (
       <Fragment>
           <header id="site_menu_header" className="site-header d-none">
             <div className="main-logo">
@@ -423,13 +424,13 @@ export default function Contact() {
                                                   <div className="d-grid" data-dsn-gap="0px 30px">
                                                       <div className="form-group dsn-up">
                                                           <div className="entry-box">
-                                                              <input id="form_name" type="text" name="name" placeholder="Type your name" required={true} data-error="name is required." />
+                                                              <input id="form_name" type="text" name="name" placeholder= "Your name – start the conversation" required={true} data-error="name is required." />
                                                           </div>
                                                           <div className="help-block with-errors"></div>
                                                       </div>
                                                       <div className="form-group dsn-up">
                                                           <div className="entry-box">
-                                                              <input id="form_email" type="email" name="email" placeholder="Type your Email Address" required={true}
+                                                              <input id="form_email" type="email" name="email" placeholder= "Your best email to hear back from us" required={true}
                                                                    data-error="Valid email is required." />
                                                           </div>
                                                           <div className="help-block with-errors"></div>
@@ -437,7 +438,7 @@ export default function Contact() {
                                                   </div>
                                                   <div className="form-group dsn-up">
                                                       <div className="entry-box">
-                                                          <textarea id="form_message" className="form-control" name="message" rows={7} placeholder="Tell us about you and the world" required={true}
+                                                          <textarea id="form_message" className="form-control" name="message" rows={7} placeholder= "Share your thoughts, tips, or story ideas for the show" required={true}
                                                                   data-error="Please,leave us a message."></textarea>
                                                       </div>
                                                       <div className="help-block with-errors"></div>
