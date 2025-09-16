@@ -356,23 +356,71 @@ export default function Contact() {
                               </span>
                           </div>
                           <div className="social-box d-flex align-items-center">
-                              <ul className="dsn-socials box-social">
-                                  <li>
-                                      <a href="https://www.facebook.com/100584466392318" target="_blank" className="background-main">
-                                          <i className="fab fa-facebook-f" aria-hidden="true"></i> <span>FB</span>
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a href="https://www.instagram.com/theglorytodayshow" target="_blank" className="background-main">
-                                          <i className="fab fa-instagram" aria-hidden="true"></i> <span>IN</span>
-                                      </a>
-                                  </li>
-                                  <li>
-                                      <a href="https://twitter.com/Glorytodayshow" target="_blank" className="background-main">
-                                          <i className="fab fa-twitter" aria-hidden="true"></i> <span>TW</span>
-                                      </a>
-                                  </li>
-                              </ul>
+                              <li>
+                                  <a
+                                      href="https://www.facebook.com/100584466392318"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="background-main"
+                                  >
+
+                                      <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="20"
+                                          height="20"
+                                          fill="currentColor"
+                                          viewBox="0 0 320 512"
+                                          aria-hidden="true"
+                                      >
+                                          <path d="M279.14 288l14.22-92.66h-88.91V127.77c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S293.9 0 268.08 0c-73.14 0-121.08 44.38-121.08 124.72v70.62H86.4V288h60.6v224h92.66V288z" />
+                                      </svg>
+
+                                  </a>
+                              </li>
+
+                              <li>
+                                  <a
+                                      href="https://www.instagram.com/theglorytodayshow"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="background-main"
+                                  >
+                                      <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="20"
+                                          height="20"
+                                          fill="currentColor"
+                                          viewBox="0 0 448 512"
+                                          aria-hidden="true"
+                                      >
+                                          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 188.5c-40.6 0-73.6-33-73.6-73.6s33-73.6 73.6-73.6 73.6 33 73.6 73.6-33 73.6-73.6 73.6zm146.4-194.3c0 14.9-12.1 27-27 27h-27c-14.9 0-27-12.1-27-27v-27c0-14.9 12.1-27 27-27h27c14.9 0 27 12.1 27 27v27zM398.8 80c-7.8-20.6-24-36.8-44.6-44.6C334.4 32 288 32 224 32s-110.4 0-130.2 3.4c-20.6 7.8-36.8 24-44.6 44.6C46.8 99.6 46.8 146 46.8 210s0 110.4 3.4 130.2c7.8 20.6 24 36.8 44.6 44.6C113.6 390 160 390 224 390s110.4 0 130.2-3.4c20.6-7.8 36.8-24 44.6-44.6 3.4-19.8 3.4-66.2 3.4-130.2s0-110.4-3.4-130.2z" />
+                                      </svg>
+
+                                  </a>
+                              </li>
+
+                              <li>
+                                  <a
+                                      href="https://twitter.com/Glorytodayshow"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="background-main"
+                                  >
+
+                                      <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          width="20"
+                                          height="20"
+                                          fill="currentColor"
+                                          viewBox="0 0 512 512"
+                                          aria-hidden="true"
+                                      >
+                                          <path d="M459.4 151.7c.3 4.5.3 9 .3 13.6 0 138.7-105.6 298.8-298.8 298.8-59.5 0-114.8-17.2-161.3-47 8.4 1 16.8 1.3 25.5 1.3 49.3 0 94.8-16.8 130.8-45.6-46.1-1-84.8-31.2-98.1-72.8 6.4 1 12.9 1.6 19.6 1.6 9.4 0 18.6-1.3 27.3-3.6-48.3-9.7-84.7-52.3-84.7-103.2v-1.3c14.3 7.9 30.6 12.9 47.9 13.6-28.4-19-47-51.4-47-88.3 0-19.3 5.2-37.3 14.3-52.9 51.9 63.7 129.5 105.4 216.7 110.1-1.8-7.7-2.9-15.8-2.9-24.2 0-57.9 47-104.8 104.8-104.8 30.1 0 57.4 12.6 76.6 33 23.7-4.5 46.1-13.3 66.2-25.2-7.7 24.2-24.2 44.6-45.6 57.4 21.1-2.3 41.4-8.1 60.1-16.2-14.3 20.7-32.1 39.2-52.6 53.8z" />
+                                      </svg>
+                                      <span>TW</span>
+                                  </a>
+                              </li>
+
                           </div>
                       </div>
                   </div>
@@ -387,7 +435,7 @@ export default function Contact() {
                                           <div className="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
                                               <img className="cover-bg-img" src="assets/img/bg.svg" alt=""/>
                                           </div>
-                                          <h2 className="title text-upper p-relative">Let's Work Together</h2>
+                                          <h2 className="title text-upper p-relative">Let's Work Together</h2>op
                                       </div>
 
                                       <div className="info background-section has-border-radius p-relative over-hidden">
@@ -455,27 +503,72 @@ export default function Contact() {
                               <div className="social-box border-bottom border-top mt-30 d-flex align-items-center justify-content-center">
                                   <p className="heading-color">Available for work</p>
                                   <ul className="dsn-socials box-social">
+
                                       <li>
-                                          <a href="https://www.facebook.com/100584466392318" target="_blank" className="background-section">
-                                              <i className="fab fa-facebook-f" aria-hidden="true"></i> <span>FB</span>
+                                          <a
+                                              href="https://www.facebook.com/100584466392318"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              className="background-section"
+                                          >
+                                              <svg
+                                                  xmlns="http://www.w3.org/2000/svg"
+                                                  width="20"
+                                                  height="20"
+                                                  fill="currentColor"
+                                                  viewBox="0 0 320 512"
+                                                  aria-hidden="true"
+                                              >
+                                                  <path d="M279.14 288l14.22-92.66h-88.91V127.77c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S293.9 0 268.08 0c-73.14 0-121.08 44.38-121.08 124.72v70.62H86.4V288h60.6v224h92.66V288z" />
+                                              </svg>
+
                                           </a>
                                       </li>
+
+
                                       <li>
-                                          <a href="https://www.instagram.com/theglorytodayshow" target="_blank" className="background-section">
-                                              <i className="fab fa-instagram" aria-hidden="true"></i> <span>IN</span>
+                                          <a
+                                              href="https://www.instagram.com/theglorytodayshow"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              className="background-section"
+                                          >
+                                              <svg
+                                                  xmlns="http://www.w3.org/2000/svg"
+                                                  width="20"
+                                                  height="20"
+                                                  fill="currentColor"
+                                                  viewBox="0 0 448 512"
+                                                  aria-hidden="true"
+                                              >
+                                                  <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 188.5c-40.6 0-73.6-33-73.6-73.6s33-73.6 73.6-73.6 73.6 33 73.6 73.6-33 73.6-73.6 73.6zm146.4-194.3c0 14.9-12.1 27-27 27h-27c-14.9 0-27-12.1-27-27v-27c0-14.9 12.1-27 27-27h27c14.9 0 27 12.1 27 27v27zM398.8 80c-7.8-20.6-24-36.8-44.6-44.6C334.4 32 288 32 224 32s-110.4 0-130.2 3.4c-20.6 7.8-36.8 24-44.6 44.6C46.8 99.6 46.8 146 46.8 210s0 110.4 3.4 130.2c7.8 20.6 24 36.8 44.6 44.6C113.6 390 160 390 224 390s110.4 0 130.2-3.4c20.6-7.8 36.8-24 44.6-44.6 3.4-19.8 3.4-66.2 3.4-130.2s0-110.4-3.4-130.2z" />
+                                              </svg>
+
                                           </a>
                                       </li>
+
+
                                       <li>
-                                          <a href="https://twitter.com/Glorytodayshow" target="_blank" className="background-section">
-                                              <i className="fab fa-twitter" aria-hidden="true"></i> <span>TW</span>
+                                          <a
+                                              href="https://twitter.com/Glorytodayshow"
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              className="background-section"
+                                          >
+                                              <svg
+                                                  xmlns="http://www.w3.org/2000/svg"
+                                                  width="20"
+                                                  height="20"
+                                                  fill="currentColor"
+                                                  viewBox="0 0 512 512"
+                                                  aria-hidden="true"
+                                              >
+                                                  <path d="M459.4 151.7c.3 4.5.3 9 .3 13.6 0 138.7-105.6 298.8-298.8 298.8-59.5 0-114.8-17.2-161.3-47 8.4 1 16.8 1.3 25.5 1.3 49.3 0 94.8-16.8 130.8-45.6-46.1-1-84.8-31.2-98.1-72.8 6.4 1 12.9 1.6 19.6 1.6 9.4 0 18.6-1.3 27.3-3.6-48.3-9.7-84.7-52.3-84.7-103.2v-1.3c14.3 7.9 30.6 12.9 47.9 13.6-28.4-19-47-51.4-47-88.3 0-19.3 5.2-37.3 14.3-52.9 51.9 63.7 129.5 105.4 216.7 110.1-1.8-7.7-2.9-15.8-2.9-24.2 0-57.9 47-104.8 104.8-104.8 30.1 0 57.4 12.6 76.6 33 23.7-4.5 46.1-13.3 66.2-25.2-7.7 24.2-24.2 44.6-45.6 57.4 21.1-2.3 41.4-8.1 60.1-16.2-14.3 20.7-32.1 39.2-52.6 53.8z" />
+                                              </svg>
                                           </a>
                                       </li>
-                                      {/*<li>*/}
-                                      {/*    <a href="#0" target="_blank" className="background-section">*/}
-                                      {/*        <i className="fab fa-linkedin" aria-hidden="true"></i> <span>LN</span>*/}
-                                      {/*    </a>*/}
-                                      {/*</li>*/}
                                   </ul>
+
                               </div>
                           </div>
                       </div>
