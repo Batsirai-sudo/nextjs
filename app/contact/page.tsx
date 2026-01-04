@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 
 export default function Contact() {
-  return (
+  // @ts-ignore
+    return (
       <Fragment>
           <header id="site_menu_header" className="site-header d-none">
             <div className="main-logo">
@@ -323,7 +324,7 @@ export default function Contact() {
                           <div className="box-content d-flex flex-column z-index-1">
                               <h1 className="title-lg text-upper">CONTACT US</h1>
                               <div className="contact-links d-flex flex-column w-50 mt-50">
-                                  <a href="mailto:booking@theglory.today" className="sm-title-block text-upper d-flex justify-content-between align-items-center">booking@theglory.today
+                                  <a href="Question@theglory.today" className="sm-title-block text-upper d-flex justify-content-between align-items-center">Question@theglory.today
                                       <span className="icon">
                                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                               <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z"></path>
@@ -435,7 +436,7 @@ export default function Contact() {
                                           <div className="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
                                               <img className="cover-bg-img" src="assets/img/bg.svg" alt=""/>
                                           </div>
-                                          <h2 className="title text-upper p-relative">Let's Work Together</h2>op
+                                          <h2 className="title text-upper p-relative">Leave us a message – your voice matters!</h2>
                                       </div>
 
                                       <div className="info background-section has-border-radius p-relative over-hidden">
@@ -471,13 +472,13 @@ export default function Contact() {
                                                   <div className="d-grid" data-dsn-gap="0px 30px">
                                                       <div className="form-group dsn-up">
                                                           <div className="entry-box">
-                                                              <input id="form_name" type="text" name="name" placeholder="Type your name" required={true} data-error="name is required." />
+                                                              <input id="form_name" type="text" name="name" placeholder= "Your name – start the conversation" required={true} data-error="name is required." />
                                                           </div>
                                                           <div className="help-block with-errors"></div>
                                                       </div>
                                                       <div className="form-group dsn-up">
                                                           <div className="entry-box">
-                                                              <input id="form_email" type="email" name="email" placeholder="Type your Email Address" required={true}
+                                                              <input id="form_email" type="email" name="email" placeholder= "Your best email to hear back from us" required={true}
                                                                    data-error="Valid email is required." />
                                                           </div>
                                                           <div className="help-block with-errors"></div>
@@ -485,7 +486,7 @@ export default function Contact() {
                                                   </div>
                                                   <div className="form-group dsn-up">
                                                       <div className="entry-box">
-                                                          <textarea id="form_message" className="form-control" name="message" rows={7} placeholder="Tell us about you and the world" required={true}
+                                                          <textarea id="form_message" className="form-control" name="message" rows={7} placeholder= "Share your thoughts, tips, or story ideas for the show" required={true}
                                                                   data-error="Please,leave us a message."></textarea>
                                                       </div>
                                                       <div className="help-block with-errors"></div>

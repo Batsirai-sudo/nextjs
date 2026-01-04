@@ -10,6 +10,7 @@ export const Slider = () => {
             src: 'one.jpeg',
             h2Href: 'project-4.html',
             h2Text: 'A Journey of Faith and Redemption',
+            paragraph: 'We are building a new kind of media movement — bold, honest, and filled with purpose. Welcome to the journey.',
             hashTags: [
                 '#FaithJourney',
                 '#Transformation',
@@ -131,6 +132,7 @@ export const Slider = () => {
                                               item_description={ item.item_description }
                                               view_link={ item.view_link }
                                               h2Href={ item.h2Href }
+                                              paragraph={item.paragraph}
                                           />
                                       )
                                   )}
@@ -177,7 +179,8 @@ const SliderItem = (
         hashTags,
         item_description,
         view_link,
-        h2Href
+        h2Href,
+        paragraph
     }: {
         description_classes: string;
         dataOverlay: number;
@@ -187,6 +190,7 @@ const SliderItem = (
         hashTags: string[];
         item_description: string;
         view_link: string;
+        paragraph?: string;
     }) => (
     <div className="slide-item swiper-slide over-hidden">
         <div className="image-bg cover-bg w-100 h-100 before-z-index" data-overlay={ dataOverlay }>
@@ -198,8 +202,14 @@ const SliderItem = (
                     { h2Text }
                 </a>
             </h2>
+            <div className={description_classes}>
 
-            <div className={ description_classes }>
+                {paragraph && (
+                    <p className="slider-paragraph">
+                        {paragraph}
+                    </p>
+                )}
+
                 <div className="cat head-meta p-0">
                     { hashTags.map(( item ) => (
                         <span key={ item } className="background-section heading-color">{ item }</span>

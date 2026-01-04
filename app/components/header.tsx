@@ -26,9 +26,10 @@ export const Header = () => (
                 </li>
                 <li>
                     <a href="https://twitter.com/Glorytodayshow" target="_blank" className="background-main">
-                        <i className="fab fa-twitter" aria-hidden="true"></i>
+                        <i className="fa-brands fa-x-twitter" aria-hidden="true"></i>
                         <span>TW</span>
                     </a>
+
                 </li>
                  <li>
                     <a href="https://www.youtube.com/@Theglorytodayshow" target="_blank" className="background-main">
