@@ -52,6 +52,11 @@ export const Header = () => (
                         Contact Us
                     </Link>
                 </li>
+                <li>
+                    <a style={{ position: 'unset', padding: 'unset', display: 'unset' }} target="_blank" href="https://buymeacoffee.com/glorytoday">
+                        <img style={ { width: '150px', height: '42px', position: 'relative', top: '-3px' } } src="/assets/img/bmc.png" alt="bmc"/>
+                    </a>
+                </li>
 				</ul>
 
             <div className="container-content  d-flex flex-column justify-content-center section-margin">
