@@ -43,7 +43,7 @@ export default function RootLayout({
               Coming Soon
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-8">
+            <h1 className="text-5xl md:text-7xl text-slate-300 font-extrabold leading-tight mb-8">
               Stories That Inspire Generations
             </h1>
             
