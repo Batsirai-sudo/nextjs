@@ -31,23 +31,23 @@ export default function RootLayout({
   return (
     <html lang="en" className="no-js">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased v-dark dsn-ajax`}>
-        <div class="absolute inset-0 bg-gradient-to-br from-[#020817] via-[#071330] to-black"></div>
-        <main class="relative min-h-screen flex items-center justify-center px-6">
-          <div class="text-center max-w-4xl">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#020817] via-[#071330] to-black"></div>
+        <main className="relative min-h-screen flex items-center justify-center px-6">
+          <div className="text-center max-w-4xl">
             <img
               src="https://eu.chat-img.sintra.ai/942cdce3-cc97-4263-a621-93244f7a46a8/f04ccec4-afc0-4ac5-ac71-1ab8d91f66d9/The_Glory_Today_TGTS-02.png"
-              class="w-72 mx-auto mb-12 bounce-slow"
+              className="w-72 mx-auto mb-12 bounce-slow"
               />
             
-            <div class="mb-6 text-yellow-400 uppercase tracking-[0.4em]">
+            <div className="mb-6 text-yellow-400 uppercase tracking-[0.4em]">
               Coming Soon
             </div>
             
-            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-8">
+            <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-8">
               Stories That Inspire Generations
             </h1>
             
-            <p class="text-slate-300 text-xl max-w-2xl mx-auto mb-10">
+            <p className="text-slate-300 text-xl max-w-2xl mx-auto mb-10">
               The Glory Today Show brings faith, family,
               and purpose into every conversation.
             </p>
