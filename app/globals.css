@@ -69,3 +69,18 @@
     color: white!important;
     transform: scale(1.05);
 }
+
+
+.animate-pulse-glow22 {
+    animation: pulse-glow 2s ease-in-out infinite
+}
+
+@keyframes pulse-glow {
+    0%,to {
+        box-shadow: 0 0 20px rgba(212,168,67,.3),0 0 40px rgba(232,118,45,.15)
+    }
+
+    50% {
+        box-shadow: 0 0 40px rgba(212,168,67,.6),0 0 60px rgba(232,118,45,.3)
+    }
+}
