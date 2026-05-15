@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "tailwindcss";
 
 /*:root {*/
@@ -68,4 +70,58 @@
     background-color: #7d5721!important;
     color: white!important;
     transform: scale(1.05);
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-archivo {
+  font-family: 'Archivo', sans-serif;
+}
+
+.animate-pulse-glow22 {
+    animation: pulse-glow 2s ease-in-out infinite
+}
+
+.sponsor-kid-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    /* gap: 4px; */
+    /* font-size: .8125rem; */
+    font-weight: 700;
+    color: #f0d78c;
+    background: rgba(212, 168, 67, .12);
+    border: 1px solid rgba(212, 168, 67, .35);
+    border-radius: 9999px;
+    /* padding: 5px 14px; */
+    transition: all .3s ease;
+    white-space: nowrap;
+}
+
+@keyframes arrowMove {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.animate-arrow {
+  animation: arrowMove 1s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+    0%,to {
+        box-shadow: 0 0 20px rgba(212,168,67,.3),0 0 40px rgba(232,118,45,.15)
+    }
+
+    50% {
+        box-shadow: 0 0 40px rgba(212,168,67,.6),0 0 60px rgba(232,118,45,.3)
+    }
 }
