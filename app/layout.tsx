@@ -51,6 +51,10 @@ export default function RootLayout({
               The Glory Today Show brings faith, family,
               and purpose into every conversation.
             </p>
+
+             <a href="https://www.theglory.today/" class="bg-gradient-to-r from-[#D4A843] to-[#E8762D] text-[#0A0E1A] px-8 sm:px-10 py-3.5 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:opacity-90 transition-all hover:scale-105 animate-pulse-glow22 text-center">
+               Visit Our Events Pages
+             </a>
           </div>
         </main>
         {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&amp;display=swap" /> */}
