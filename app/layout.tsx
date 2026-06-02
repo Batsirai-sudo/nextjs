@@ -67,7 +67,7 @@ export default function RootLayout( {
 								href="https://www.theglory.today/"
 								className="bg-gradient-to-r from-[#D4A843] to-[#E8762D] text-[#0A0E1A] px-4 justify-center sm:px-10 py-3.5 sm:py-4 rounded-full flex items-center font-bold text-sm sm:text-lg hover:opacity-90 transition-all hover:scale-105 animate-pulse-glow22 text-center"
 							>
-								Visit Our Event Pages
+								Visit Our Event Page
 							</a>
 
 							<a
@@ -78,33 +78,51 @@ export default function RootLayout( {
 								<span className="block">Buy Me a Coffee</span>
 							</a>
 						</div>
-						<div className="text-center py-4">
-    <p className="text-white text-lg font-semibold mb-2">
-        Connect with us
-    </p>
 
-    <div className="text-white space-y-1">
-        <p>
-            <span className="font-medium">Linktree:</span>
-            <a
-                href="https://linktr.ee/theglorytoday"
-                target="_blank"
-                className="text-blue-300 hover:text-blue-200 underline"
-            >
-                linktr.ee/theglorytoday
-            </a>
-        </p>
 
-        <p>
-            <span className="font-medium">Email:</span>
-            <a
-                href="mailto:question@theglory.today"
-                className="text-blue-300 hover:text-blue-200 underline"
-            >
-                question@theglory.today
-            </a>
-        </p>
-    </div>
+
+			<div className="py-4 text-center flex justify-center gap-4 items-center">
+  <p className="text-lg font-semibold text-white">
+    Connect with us
+  </p>
+
+  <div className="flex items-center justify-center gap-4">
+    {/* Linktree */}
+    <a
+      href="https://linktr.ee/theglorytoday"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Linktree"
+      className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white transition-all duration-300 hover:scale-110 hover:text-green-400"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        viewBox="0 0 64 64"
+        fill="currentColor"
+      >
+        <path d="M28 4h8v20.7l10.3-10.3 5.7 5.7L39.7 32 52 44.3l-5.7 5.7L36 39.7V60h-8V39.7L17.7 50l-5.7-5.7L24.3 32 12 19.7l5.7-5.7L28 24.3V4z" />
+      </svg>
+    </a>
+
+    {/* Email */}
+    <a
+      href="mailto:question@theglory.today"
+      aria-label="Email"
+      className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white transition-all duration-300 hover:scale-110 hover:text-amber-400"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+      </svg>
+    </a>
+  </div>
 </div>
 					</div>
 				</main>
