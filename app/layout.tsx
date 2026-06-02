@@ -78,7 +78,7 @@ export default function RootLayout( {
 								<span className="block">Buy Me a Coffee</span>
 							</a>
 						</div>
-						<div class="text-center py-4">
+						<div className="text-center py-4">
     <p className="text-white text-lg font-semibold mb-2">
         Connect with us
     </p>
