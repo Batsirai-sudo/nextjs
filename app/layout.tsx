@@ -67,7 +67,7 @@ export default function RootLayout( {
 								href="https://www.theglory.today/"
 								className="bg-gradient-to-r from-[#D4A843] to-[#E8762D] text-[#0A0E1A] px-4 justify-center sm:px-10 py-3.5 sm:py-4 rounded-full flex items-center font-bold text-sm sm:text-lg hover:opacity-90 transition-all hover:scale-105 animate-pulse-glow22 text-center"
 							>
-								Visit Our Events Pages
+								Visit Our Event Pages
 							</a>
 
 							<a
@@ -78,6 +78,34 @@ export default function RootLayout( {
 								<span className="block">Buy Me a Coffee</span>
 							</a>
 						</div>
+						<div class="text-center py-4">
+    <p class="text-white text-lg font-semibold mb-2">
+        Connect with us
+    </p>
+
+    <div class="text-white space-y-1">
+        <p>
+            <span class="font-medium">Linktree:</span>
+            <a
+                href="https://linktr.ee/theglorytoday"
+                target="_blank"
+                class="text-blue-300 hover:text-blue-200 underline"
+            >
+                linktr.ee/theglorytoday
+            </a>
+        </p>
+
+        <p>
+            <span class="font-medium">Email:</span>
+            <a
+                href="mailto:question@theglory.today"
+                class="text-blue-300 hover:text-blue-200 underline"
+            >
+                question@theglory.today
+            </a>
+        </p>
+    </div>
+</div>
 					</div>
 				</main>
 			</body>
