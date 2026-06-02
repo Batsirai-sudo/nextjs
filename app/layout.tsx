@@ -79,27 +79,27 @@ export default function RootLayout( {
 							</a>
 						</div>
 						<div class="text-center py-4">
-    <p class="text-white text-lg font-semibold mb-2">
+    <p className="text-white text-lg font-semibold mb-2">
         Connect with us
     </p>
 
-    <div class="text-white space-y-1">
+    <div className="text-white space-y-1">
         <p>
-            <span class="font-medium">Linktree:</span>
+            <span className="font-medium">Linktree:</span>
             <a
                 href="https://linktr.ee/theglorytoday"
                 target="_blank"
-                class="text-blue-300 hover:text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200 underline"
             >
                 linktr.ee/theglorytoday
             </a>
         </p>
 
         <p>
-            <span class="font-medium">Email:</span>
+            <span className="font-medium">Email:</span>
             <a
                 href="mailto:question@theglory.today"
-                class="text-blue-300 hover:text-blue-200 underline"
+                className="text-blue-300 hover:text-blue-200 underline"
             >
                 question@theglory.today
             </a>
