@@ -67,7 +67,7 @@ export default function RootLayout( {
 								href="https://www.theglory.today/"
 								className="bg-gradient-to-r from-[#D4A843] to-[#E8762D] text-[#0A0E1A] px-4 justify-center sm:px-10 py-3.5 sm:py-4 rounded-full flex items-center font-bold text-sm sm:text-lg hover:opacity-90 transition-all hover:scale-105 animate-pulse-glow22 text-center"
 							>
-								Visit Our Event Pages
+								Visit Our Event Page
 							</a>
 
 							<a
