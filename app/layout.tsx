@@ -81,8 +81,8 @@ export default function RootLayout( {
 
 
 
-			<div className="py-4 text-center">
-  <p className="mb-4 text-lg font-semibold text-white">
+			<div className="py-4 text-center flex justify-center gap-4 items-center">
+  <p className="text-lg font-semibold text-white">
     Connect with us
   </p>
 
